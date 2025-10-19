@@ -45,11 +45,12 @@ const page = () => {
               </label>
               <input id="i-confirm-password" type="password" placeholder="Confirmar contraseña" />
             </div>
+            
+            <div className="col-12 mt-4">
+              <button>Crear cuenta</button>
+            </div>
           </div>
 
-          <div className="col-12 mt-4">
-            <button>Crear cuenta</button>
-          </div>
         </form>
       </div>
 
