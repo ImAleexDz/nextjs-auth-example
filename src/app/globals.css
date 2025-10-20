@@ -29,6 +29,11 @@ body {
   padding: 0;
   margin: 0;
   /* outline: 1px solid red; */
+  list-style: none;
+}
+
+ul {
+  padding: 0 !important;
 }
 
 a {

@@ -9,9 +9,9 @@ const Header = () => {
     <>
       <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">Home</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Route 1</Nav.Link>
+            <Nav.Link href="/users">Usuarios</Nav.Link>
             <Nav.Link href="#features">Route 2</Nav.Link>
             <Nav.Link href="#pricing">Route 3</Nav.Link>
           </Nav>
