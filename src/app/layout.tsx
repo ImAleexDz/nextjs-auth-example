@@ -27,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta name="google-signin-client_id" content="1052137308741-mr0nj8k9it4k3tbi4gfbuogj7tjhb0a3.apps.googleusercontent.com"></meta>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         <div className="container mt-4 mb-5">

@@ -1,12 +1,14 @@
 import React from 'react'
 import styles from './styles/register.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
 const page = () => {
   return (
     <div className='row'>
 
       <div className='col-md-4 offset-md-4'>
-        <h1>Crear cuenta</h1>
+        <h1 className='text-center'>Crear cuenta</h1>
 
         <form className={styles.form} action="">
 
@@ -48,7 +50,20 @@ const page = () => {
             
             <div className="col-12 mt-4">
               <button>Crear cuenta</button>
+              <p className='mt-3 text-center'>
+                ¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a>
+              </p>
             </div>
+
+            <div className="col-12 mt-5 text-center">
+                    <p>
+                        O también regístrate con Google:
+                    </p>
+                    
+                    <button className='google-btn'>
+                        <FontAwesomeIcon style={{color: "#D9432F", width: "30px", height: "50px"}} icon={faGoogle} />
+                    </button>
+                </div>
           </div>
 
         </form>
