@@ -44,7 +44,9 @@ const LoginForm = ({ className }: Props) => {
         if (res.ok) {
             alert("Inicio de sesión exitoso.");
             console.log('login success', res.status, body);
-            // redirect or update UI here
+            window.location.href = '/'; //redirect to home or other page
+
+
         } else {
             // show server-provided message when available
             const msg = body?.message || body || `Error ${res.status} ${res.statusText}`;
